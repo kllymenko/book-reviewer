@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Оглядач книг</title>
+    <!-- Подключение Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+</head>
+<body>
+<!-- Шапка страницы -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Оглядач книг</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Вхід</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Реєстрація</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Баннер и представление -->
+<section class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">Відкрий цей світ, розкриваючи сторінки</h1>
+        <p class="lead">Сайт для чесних відгуків про прочитані книги!</p>
+    </div>
+</section>
+
+<!-- Раздел "Новинки" -->
+<section>
+    <div class="container">
+        <h2>Новинки</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="path_to_image" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Назва книги</h5>
+                        <p class="card-text">Опис книги</p>
+                        <a href="#" class="btn btn-primary">Докладніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Розділ "Жанри" -->
+<section>
+    <div class="container">
+        <h2>Жанры</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Фантастика</h5>
+                        <p class="card-text">Опис жанра</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Раздел "Авторы" -->
+<section>
+    <div class="container">
+        <h2>Авторы</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="path_to_image" class="card-img-top" alt="Author Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Автор</h5>
+                        <p class="card-text">Біографія</p>
+                        <a href="#" class="btn btn-primary">Докладніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Подключение скриптов Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rPwhSwWq/dSfSHB1gROV7n5ae7MTC4hjhS9zI/Pq8EBo0GByBf/"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT5z6GqvyGgxCIF+tmBhCrkPj2q2mM2z8E+ZvShmU6dKlF/2Mx+hR6blD5t1d"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUc8bAwEIQKbhGMaL10sxlquV8xh7m1x8a8qcF0smTO6H"
+        crossorigin="anonymous"></script>
+</body>
+</html>
