@@ -6,6 +6,6 @@ import ua.klymenko.bookreviewer.entity.Book;
 import java.util.List;
 
 public interface BookRepository extends CrudRepository<Book, Long> {
-    Book findByBookName(String bookName);
+    Book findBookByName(String name);
     List<Book> findAll();
 }
